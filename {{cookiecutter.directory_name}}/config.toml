@@ -1,0 +1,44 @@
+baseURL = "/"
+languageCode = "en-us"
+DefaultContentLanguage = "en"
+
+title = "{{ cookiecutter.name }}"
+theme = "hugo-theme-docdock"
+
+[params]
+themeVariant = "revsys"
+noHomeIcon = false # default is false
+noSearch = false # default is false
+showVisitedLinks = false
+{% if cookiecutter.repo_url %}editURL = "{{ cookiecutter.repo_url }}"{% endif %}
+
+
+[outputs]
+home = [ "HTML", "RSS", "JSON"]
+
+[[menu.shortcuts]]
+pre = "<h3>More</h3>"
+name = "<i class='fa fa-bookmark'></i> Hugo Documentation"
+identifier = "hugodoc"
+url = "https://gohugo.io/"
+weight = 10
+
+[[menu.shortcuts]]
+name = "<i class='fa fa-bookmark'></i> Theme Documentation"
+identifier = "themedoc"
+url = "https://themes.gohugo.io/theme/docdock/"
+weight = 11
+
+{% if cookiecutter.repo_url %}
+[[menu.shortcuts]]
+name = "<i class='fa fa-github'></i> Git repo"
+identifier = "ds"
+url = "{{ cookiecutter.repo_url }}"
+weight = 12
+{% endif %}
+
+[[menu.shortcuts]]
+name = "<i class='fa fa-home'></i> Homepage"
+url = "http://www.revsys.com"
+weight = 20
+
