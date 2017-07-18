@@ -3,6 +3,6 @@
     "name": "New REVSYS Docs",
     "repo_url": "",
     "_copy_without_render": [
-        "./themes/hugo-theme-docbook/**"
+        "*/hugo-theme-docdock/*"
     ]
 }
