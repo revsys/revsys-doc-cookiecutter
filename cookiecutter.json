@@ -1,5 +1,8 @@
 {
     "directory_name": "docs",
     "name": "New REVSYS Docs",
-    "repo_url": ""
+    "repo_url": "",
+    "_copy_without_render": [
+        "themes/hugo-theme-docbook/*"
+    ]
 }
