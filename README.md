@@ -2,7 +2,7 @@
 
 This is our cookiecutter for generating REVSYS themed documentation using hugo.
 
-This repository is just to keep the base hugo theme separate from our [rsdoc](https://github.com/revsys/rsdoc) utility.
+**NOTE**: This cookiecutter is primarily used by our [rsdoc utility](https://github.com/revsys/rsdoc)
 
 ## Install hugo
 
