@@ -1,6 +1,6 @@
 +++
 title= "{% raw %}{{ replace .TranslationBaseName "-" " " | title }}{% endraw %}"
-date= {{ .Date }}
+date= {% raw %}{{ .Date }}{% endraw %}
 description = ""
 draft= true
 +++
