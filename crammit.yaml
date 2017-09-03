@@ -1,0 +1,21 @@
+# `pip install crammit` and then run `crammit -c crammit.yaml` to
+# regenerate our combined and minified CSS and JS files for the revsys
+# docs theme
+output: "{{cookiecutter.directory_name}}/themes/hugo-theme-docdock/static/"
+fingerprint: true
+
+js_minifier_options: # options dictionary to configure JS minifier
+  mangle: True
+  mangle_toplevel: True
+
+css:
+  revsys-theme:
+    # you can use Unix shell-style wildcards in file names
+    - "{{cookiecutter.directory_name}}/themes/hugo-theme-docdock/static/css/nucleus.css"
+    - "{{cookiecutter.directory_name}}/themes/hugo-theme-docdock/static/css/font-awesome.min.css"
+    - "{{cookiecutter.directory_name}}/themes/hugo-theme-docdock/static/css/hybrid.css"
+    - "{{cookiecutter.directory_name}}/themes/hugo-theme-docdock/static/css/featherlight.min.css"
+    - "{{cookiecutter.directory_name}}/themes/hugo-theme-docdock/static/css/horsey.css"
+    - "{{cookiecutter.directory_name}}/themes/hugo-theme-docdock/static/css/theme.css"
+    - "{{cookiecutter.directory_name}}/themes/hugo-theme-docdock/static/css/theme-revsys.css"
+    - "{{cookiecutter.directory_name}}/themes/hugo-theme-docdock/static/css/bootstrap.min.css"

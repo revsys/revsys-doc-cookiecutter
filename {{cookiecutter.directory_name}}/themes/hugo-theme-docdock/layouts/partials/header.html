@@ -5,20 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
     {{ partial "meta.html" . }}
     <title>{{ .Title }} :: {{ .Site.Title }}</title>
-    <link href="{{"css/nucleus.css" | relURL}}" rel="stylesheet">
-    <link href="{{"css/font-awesome.min.css" | relURL}}" rel="stylesheet">
-    <link href="{{"css/hybrid.css" | relURL}}" rel="stylesheet">
-    <link href="{{"css/featherlight.min.css" | relURL}}" rel="stylesheet">
-    <link href="{{"css/horsey.css" | relURL}}" rel="stylesheet">
-    {{with .Site.Params.themeStyle}}
-    <link href="{{(printf "css/%s.css" .) | relURL}}" rel="stylesheet">
-    {{else}}
-    <link href="{{"css/theme.css" | relURL}}" rel="stylesheet">
-    {{end}}
-    {{with .Site.Params.themeVariant}}
-      <link href="{{(printf "css/theme-%s.css" .) | relURL}}" rel="stylesheet">
-    {{end}}
-    <link rel="stylesheet" href="{{"css/bootstrap.min.css" | relURL}}">
+    <link href="{{"revsys-theme-a80bedf72d9fd66c9026f3f1371d411132816f2e.min.css.gz" | relURL }}" rel="stylesheet">
+
     <script src="{{"js/jquery-2.x.min.js" | relURL}}"></script>
     <style type="text/css">
       :root #header + #content > #left > #rlblock_left {

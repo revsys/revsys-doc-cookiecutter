@@ -1,0 +1,20 @@
+css:
+  revsys-theme:
+    files:
+    - '{{cookiecutter.directory_name}}/themes/hugo-theme-docdock/static/css/nucleus.css'
+    - '{{cookiecutter.directory_name}}/themes/hugo-theme-docdock/static/css/font-awesome.min.css'
+    - '{{cookiecutter.directory_name}}/themes/hugo-theme-docdock/static/css/hybrid.css'
+    - '{{cookiecutter.directory_name}}/themes/hugo-theme-docdock/static/css/featherlight.min.css'
+    - '{{cookiecutter.directory_name}}/themes/hugo-theme-docdock/static/css/horsey.css'
+    - '{{cookiecutter.directory_name}}/themes/hugo-theme-docdock/static/css/theme.css'
+    - '{{cookiecutter.directory_name}}/themes/hugo-theme-docdock/static/css/theme-revsys.css'
+    - '{{cookiecutter.directory_name}}/themes/hugo-theme-docdock/static/css/bootstrap.min.css'
+    fingerprint: a80bedf72d9fd66c9026f3f1371d411132816f2e
+    output:
+      gz: revsys-theme-a80bedf72d9fd66c9026f3f1371d411132816f2e.min.css.gz
+      min: revsys-theme-a80bedf72d9fd66c9026f3f1371d411132816f2e.min.css
+      raw: revsys-theme-a80bedf72d9fd66c9026f3f1371d411132816f2e.css
+    size:
+      gz: 21080
+      min: 108621
+      raw: 118398
