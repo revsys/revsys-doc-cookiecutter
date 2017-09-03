@@ -8,6 +8,22 @@ js_minifier_options: # options dictionary to configure JS minifier
   mangle: True
   mangle_toplevel: True
 
+javascript:
+  header:
+    - "{{cookiecutter.directory_name}}/themes/hugo-theme-docdock/static/js/jquery-2.x.min.js"
+    - "{{cookiecutter.directory_name}}/themes/hugo-theme-docdock/static/js/lunr.min.js"
+    - "{{cookiecutter.directory_name}}/themes/hugo-theme-docdock/static/js/horsey.js"
+  footer1:
+    - "{{cookiecutter.directory_name}}/themes/hugo-theme-docdock/static/js/jquery-2.x.min.js"
+    - "{{cookiecutter.directory_name}}/themes/hugo-theme-docdock/static/js/clipboard.min.js"
+    - "{{cookiecutter.directory_name}}/themes/hugo-theme-docdock/static/js/featherlight.min.js"
+    - "{{cookiecutter.directory_name}}/themes/hugo-theme-docdock/static/js/html5shiv-printshiv.min.js"
+    - "{{cookiecutter.directory_name}}/themes/hugo-theme-docdock/static/js/highlight.pack.js"
+  footer2:
+    - "{{cookiecutter.directory_name}}/themes/hugo-theme-docdock/static/js/modernizr.custom.71422.js"
+    - "{{cookiecutter.directory_name}}/themes/hugo-theme-docdock/static/js/learn.js"
+    - "{{cookiecutter.directory_name}}/themes/hugo-theme-docdock/static/js/hugo-learn.js"
+
 css:
   revsys-theme:
     # you can use Unix shell-style wildcards in file names

@@ -18,3 +18,48 @@ css:
       gz: 21080
       min: 108621
       raw: 118398
+javascript:
+  footer1:
+    files:
+    - '{{cookiecutter.directory_name}}/themes/hugo-theme-docdock/static/js/jquery-2.x.min.js'
+    - '{{cookiecutter.directory_name}}/themes/hugo-theme-docdock/static/js/clipboard.min.js'
+    - '{{cookiecutter.directory_name}}/themes/hugo-theme-docdock/static/js/featherlight.min.js'
+    - '{{cookiecutter.directory_name}}/themes/hugo-theme-docdock/static/js/html5shiv-printshiv.min.js'
+    - '{{cookiecutter.directory_name}}/themes/hugo-theme-docdock/static/js/highlight.pack.js'
+    fingerprint: 620fa169a04e8956ef1469b72fe3c69d1b34cbad
+    output:
+      gz: footer1-620fa169a04e8956ef1469b72fe3c69d1b34cbad.min.js.gz
+      min: footer1-620fa169a04e8956ef1469b72fe3c69d1b34cbad.min.js
+      raw: footer1-620fa169a04e8956ef1469b72fe3c69d1b34cbad.js
+    size:
+      gz: 58732
+      min: 164755
+      raw: 164715
+  footer2:
+    files:
+    - '{{cookiecutter.directory_name}}/themes/hugo-theme-docdock/static/js/modernizr.custom.71422.js'
+    - '{{cookiecutter.directory_name}}/themes/hugo-theme-docdock/static/js/learn.js'
+    - '{{cookiecutter.directory_name}}/themes/hugo-theme-docdock/static/js/hugo-learn.js'
+    fingerprint: 0b98db15bb7ba2f416bce0106079f91421278747
+    output:
+      gz: footer2-0b98db15bb7ba2f416bce0106079f91421278747.min.js.gz
+      min: footer2-0b98db15bb7ba2f416bce0106079f91421278747.min.js
+      raw: footer2-0b98db15bb7ba2f416bce0106079f91421278747.js
+    size:
+      gz: 6396
+      min: 17026
+      raw: 22806
+  header:
+    files:
+    - '{{cookiecutter.directory_name}}/themes/hugo-theme-docdock/static/js/jquery-2.x.min.js'
+    - '{{cookiecutter.directory_name}}/themes/hugo-theme-docdock/static/js/lunr.min.js'
+    - '{{cookiecutter.directory_name}}/themes/hugo-theme-docdock/static/js/horsey.js'
+    fingerprint: fe13c650bbb8665e927e9c19fe65f8d2c6cd09d1
+    output:
+      gz: header-fe13c650bbb8665e927e9c19fe65f8d2c6cd09d1.min.js.gz
+      min: header-fe13c650bbb8665e927e9c19fe65f8d2c6cd09d1.min.js
+      raw: header-fe13c650bbb8665e927e9c19fe65f8d2c6cd09d1.js
+    size:
+      gz: 41231
+      min: 122275
+      raw: 278537
